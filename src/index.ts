@@ -8,5 +8,5 @@ import { Pokemon } from "./decorators/pokemon-clas";
 
 const charmander = new Pokemon('Charmander');
 
-console.log(charmander);
+console.log(charmander.savePokemonToDB(900));
 
